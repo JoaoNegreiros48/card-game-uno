@@ -58,4 +58,12 @@ public class Jogo {
 
         return false;
     }
+
+    public List<Jogador> getJogadores() {
+        return jogadores;
+    }
+
+    public Carta getCartaNaMesa(){
+        return cartaNaMesa;
+    } 
 }
